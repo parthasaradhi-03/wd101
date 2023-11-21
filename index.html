@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="user-form">
+            <h1>Registration Form</h1><br>
+            <hr><br>
+            <label for="Name"><b>Name:</b></label>
+            <input required type="text" placeholder="Enter Name" id="name" name="name"><br>
+            <label for="Email"><b>Email:</b></label>
+            <input required type="email" placeholder="Enter Email" id="email" name="email"><br>
+            <label for="password"><b>Password:</b></label>
+            <input required type="password" placeholder="*******" id="password" name="password"><br>
+            <label for="DOB"><b>Date of Birth:</b></label>
+            <input required type="date" placeholder="dd/mm/yyyy" id="dob" name="dob"><br>
+            <input required type="checkbox" id="accept" name="accept">
+            <label for="accept" ><b>Accept Terms and Conditions</b></label><br>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+        <div class="relative bg-yellowgreen px-6 mt-5 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:rounded-lg sm:px-10">
+            <div class="mx-auto">
+                <h2 class="text-3xl text-center font-bold leading-tight"></h2>
+            </div>
+        </div>
+    </div>
+    <div class="divide-y divide-gray-300/50" id="user-entries"></div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  size: "10";
+  color: gray;
+}
+
+.container {
+  background-color: rgb(205, 50, 84);
+  height: 385px;
+  width: 985px;
+  border: 10px solid blanchedalmond;
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  margin: 5px;
+}
+
+#user-entries table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+}
+
+#user-entries th,
+#user-entries td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
